@@ -25,17 +25,17 @@ const ItemListPage = () => {
 
 	const [isToggled, setIsToggled] = useState(false);
 	const [loading, setLoading] = useState(false)
-	const [currentPage, setCurrentPage] = useState(1);
+	const [currentPage, setCurrentPage] = useState(2);
 	const [data, setData] = useState([])
 	const [scrappedCard, setScrappedCard] = useState(getScrapCards("SCRAP_CARDS"))
 	const [isLastPage, setIsLastPage] = useState(false);
 
-	console.log(data.length)
-
 	const getHouseList = async (curPage) => {
 		setLoading(true)
 		const { data : newData } = await api.houseList(curPage);
+
 		if (newData.length === 0) setIsLastPage(true)
+
 		setData(data.concat(newData));
 		setCurrentPage(currentPage + 1);
 		setLoading(false)
@@ -43,7 +43,11 @@ const ItemListPage = () => {
 
 	// 초기 데이터 업데이트를 위한 useEffect Hook
 	useEffect( () => {
-		getHouseList(1)
+		async function getFirstData() {
+			const {data} = await api.houseList(1);
+			setData(data);
+		}
+		getFirstData()
 	}, [])
 
 	useEffect(() => {
@@ -57,7 +61,7 @@ const ItemListPage = () => {
 		const scrollHeight = document.documentElement.scrollHeight;
 		const scrollTop = document.documentElement.scrollTop;
 		const clientHeight = document.documentElement.clientHeight;
-		if (scrollTop + clientHeight >= scrollHeight && !isLastPage) {
+		if (scrollTop + clientHeight >= scrollHeight && !isLastPage && !loading && !isToggled) {
 			getHouseList(currentPage);
 		}
 	}
