@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 53.1 (72631) - https://sketchapp.com -->
+    <title>2EAEA9EB-A138-44B4-906D-CBB3416C488C</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <path d="M12.4716309,6.93 L19.5283691,3.11858393 C20.0153716,2.8577054 20.6213215,3.0416274 20.8817961,3.52938522 C20.9593986,3.67470171 21,3.83695155 21,4.00174758 L21,19.4976736 C21,20.3273856 20.3284271,21 19.5,21 L4.5,21 C3.67157288,21 3,20.3273856 3,19.4976736 L3,4.00174758 C3,3.44860628 3.44771525,3.00019667 4,3.00019667 C4.16454084,3.00019667 4.32653944,3.04086103 4.4716309,3.11858393 L11.5283691,6.93 C11.8230395,7.08784969 12.1769605,7.08784969 12.4716309,6.93 Z" id="path-1"></path>
+        <filter x="-25.0%" y="-25.0%" width="150.0%" height="150.0%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.26 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <filter x="-25.0%" y="-25.0%" width="150.0%" height="150.0%" filterUnits="objectBoundingBox" id="filter-3">
+            <feGaussianBlur stdDeviation="1.5" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="0" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="ic/scrap/on-img/" fill-rule="nonzero">
+            <g id="Mask" transform="translate(12.000000, 12.000000) scale(1, -1) translate(-12.000000, -12.000000) ">
+                <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                <use fill-opacity="0.4" fill="#FFFFFF" xlink:href="#path-1"></use>
+                <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-1"></use>
+                <path stroke="#FFFFFF" stroke-width="1" d="M12.7092429,7.36993243 L12.7077306,7.37074589 C12.2655744,7.60760105 11.7344256,7.60760105 11.2907571,7.36993243 L4.23553122,3.55932982 C4.16305007,3.52050297 4.08215388,3.50019667 4,3.50019667 C3.72403123,3.50019667 3.5,3.72457535 3.5,4.00174758 L3.5,19.4976736 C3.5,20.0514165 3.94788886,20.5 4.5,20.5 L19.5,20.5 C20.0521111,20.5 20.5,20.0514165 20.5,19.4976736 L20.5,4.00174758 C20.5,3.91910557 20.4796421,3.83775198 20.4407462,3.76491658 C20.3104252,3.52088088 20.0077471,3.42900998 19.7659811,3.55851636 L12.7092429,7.36993243 Z M12.2349038,6.48958963 C12.235113,6.48947795 12.2353221,6.48936611 12.2355312,6.48925411 L12.2340189,6.49006757 L12.2349038,6.48958962 Z" stroke-linejoin="square"></path>
+            </g>
+        </g>
+    </g>
+</svg>

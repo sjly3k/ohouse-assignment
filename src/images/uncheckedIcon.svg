@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 53.1 (72631) - https://sketchapp.com -->
+    <title>A566A81F-C4CF-417A-9039-84F556163BA3</title>
+    <desc>Created with sketchtool.</desc>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-opacity="0.26">
+        <g id="bt/circle/white" fill="#FFFFFF" stroke="#000000">
+<!--            <circle id="Oval-2-Copy" cx="12" cy="12" r="11.5"></circle>-->
+            <rect id="Rectangle" fill="#ffffff" fill-rule="evenodd" x="0" y="0" width="24" height="24" rx="12"></rect>
+            <polygon id="Path" fill="#FFFFFF" fill-rule="nonzero" points="9.88517937 14.6005544 16.9636161 7.30371653 18.3991499 8.69628347 9.95648155 17.3994456 5 12.7852392 6.36276604 11.3213852"></polygon>
+        </g>
+    </g>
+</svg>
